@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 2</title>
+</head>
+
+<body>
+    <form>
+        <h2>Job Application</h2>
+        <div>
+            <label for="name">Name:</label><br /><br />
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="">Email:</label><br /><br />
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="">Phone:</label><br/><br/>
+            <input type="tel" name="tel" id="tel">
+        </div>
+        <br/>
+
+        <div>
+            <label for="file">Resume:</label><br /><br />
+            <input type="file" name="file" id="file">
+        </div>
+        <br />
+        <div>
+            <label for="exp">Experience (years):</label>
+            <input type="number" min="0" max="40" id="exp" name="exp">
+        </div>
+        <br/>
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="html" id="html">
+            <br />
+            <label for="html">HTML</label>
+            <br />
+            <input type="checkbox" name="css" id="css"><br />
+            <label for="css">CSS</label>
+            <br />
+            <input type="checkbox" name="javascript" id="javascript"><br />
+            <label for="javascript">Javascript</label>
+        </fieldset>
+        <br/>
+        <div>
+            <label for="edu">Higher Education:</label><br /><br />
+            <select name="edu" id="edu">
+                <!-- <option value="other">Other</option> -->
+                <option value="higher School">Higher School</option>
+                <option value="under Graduation">Under Graduation</option>
+                <option value="post Graduation">Post Graduation</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label>Availability:</label>
+            <label for="part">Part-Time</label>
+            <input type="radio" name="avail" id="part">
+            <label for="full">Full-time</label>
+            <input type="radio" name="avail" id="full"><br/>
+        </div>
+        <br/>
+        <div>
+            <label for="comment">Additional Comments:</label><br/>
+            <textarea name="comment" id="comment" cols="60" rows="6"></textarea>
+            <button type="submit">Submit Application</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

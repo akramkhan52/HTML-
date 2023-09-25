@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigmnet 1</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Event Registration</legend>
+        <ol type="a">
+          <li>
+            <div>
+              <label for="name">Name:</label><br />
+              <input type="text" name="name" id="name" />
+            </div>
+          </li>
+
+          <br />
+          <li>
+            <div>
+              <label for="email">Email:</label><br />
+              <input type="email" name="email" id="email" />
+            </div>
+          </li>
+          <br />
+          <li>
+            <div>
+              <label for="phone">Phone:</label><br />
+              <input type="tel" name="phone" id="phone" />
+            </div>
+          </li>
+          <br />
+          <li>
+            <div>
+              <label for="occupation">Occupation:</label>
+              <select name="occupation" id="occupation">
+                <option value="other">Other</option>
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>Topic of Interest :</p>
+              <label for="html">HTML</label>
+              <input type="checkbox" name="html" id="html" value="html" />
+              <label for="css">CSS</label>
+              <input type="checkbox" name="css" id="css" value="css" />
+              <label for="javascript">Javascript</label>
+              <input
+                type="checkbox"
+                name="javascript"
+                id="javascript"
+                value="javascript"
+              />
+            </div>
+          </li>
+        </ol>
+        <br />
+        <div>
+          <label for="comments">Comments:</label><br /><br />
+          <textarea
+            name="comments1"
+            id="comments1"
+            cols="60"
+            rows="4"
+          ></textarea>
+          <input type="submit" value="Register" />
+          <!-- <button type="submit" value="Register">Register</button> -->
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
